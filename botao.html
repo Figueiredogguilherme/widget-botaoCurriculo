@@ -3,36 +3,48 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Botao_acessarCurriculo</title>
+<title>Transparent Button</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
 <style>
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #f6f3f9; /* Set the background color of the page */
+    font-family: 'Roboto', sans-serif; /* Specify the font family */
+  }
+
   .button-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh; /* Adjust the height as needed */
   }
+
   .custom-button {
     background-color: #9065b0;
     color: #ffffff;
     padding: 10px 20px;
     font-size: 16px;
+    font-weight: 700; /* Set font weight to bold */
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
     text-decoration: none; /* Remove underline for anchor tag */
+    border: none; /* Remove button border */
   }
 
   .custom-button:hover {
     background-color: #70498d;
-    color: #ffffff;
   }
 </style>
 </head>
 <body>
 
-    <div class="button-container">
-        <a href="https://drive.google.com/file/d/1WaC6DQ1NUw_3YVpTvm73fztt9XP--GJH/view?usp=drive_link" class="custom-button">Acessar Currículo</a>
-      </div>
+<div class="button-container">
+  <div class="button-wrapper">
+    <a href="https://example.com" class="custom-button">Acessar Currículo</a>
+  </div>
+</div>
 
 </body>
 </html>
